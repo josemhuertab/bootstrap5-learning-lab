@@ -1,0 +1,76 @@
+body[data-bs-theme="dark"] {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+/* Títulos y párrafos en blanco */
+body[data-bs-theme="dark"] h1,
+body[data-bs-theme="dark"] h2,
+body[data-bs-theme="dark"] h3,
+body[data-bs-theme="dark"] p {
+  color: #ffffff !important;
+}
+
+/* Navbar fondo oscuro */
+body[data-bs-theme="dark"] .navbar {
+  background-color: #121212 !important;
+}
+
+/* Navbar brand - texto blanco y sin fondo ni padding ni sombra */
+body[data-bs-theme="dark"] .navbar .navbar-brand {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Navbar links en blanco */
+body[data-bs-theme="dark"] .navbar .nav-link {
+  color: #ffffff !important;
+}
+
+body[data-bs-theme="dark"] .navbar .nav-link.active {
+  color: #ddd !important;
+}
+
+body[data-bs-theme="dark"] .navbar .nav-link:hover {
+  color: #fff !important;
+}
+
+/* Footer fondo oscuro y texto blanco */
+body[data-bs-theme="dark"] footer {
+  background-color: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+/* Enlaces en footer */
+body[data-bs-theme="dark"] footer a {
+  color: #bbbbbb !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+
+body[data-bs-theme="dark"] footer a:hover,
+body[data-bs-theme="dark"] footer a:focus {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+/* Iconos redes sociales - blanco puro sin opacidad ni filtro */
+body[data-bs-theme="dark"] .d-flex.gap-3.fs-2 a {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body[data-bs-theme="dark"] .d-flex.gap-3.fs-2 a i {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
+}

@@ -1,0 +1,24 @@
+// Estilos por defecto (modo claro)
+
+body {
+  background-color: $color-bg-light;
+  color: $color-text-light;
+}
+
+a,
+.navbar,
+.card,
+footer {
+  background-color: $color-bg-light;
+  color: $color-text-light;
+}
+
+.btn-primary {
+  background-color: $color-primary-light;
+  border-color: $color-primary-light;
+}
+
+// Iconos bootstrap-icons modo claro
+.bi {
+  color: $color-icon-light !important;
+}
