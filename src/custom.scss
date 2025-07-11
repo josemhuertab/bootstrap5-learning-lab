@@ -1,0 +1,34 @@
+// Abstracts (variables, mixins, funciones)
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// Base (reset, tipografía, estilos base)
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+// Components (botones, cards, sliders, etc.)
+@import "components/buttons";
+@import "components/cards";
+@import "components/carousel";
+
+// Layout (header, footer, navbar, etc.)
+@import "layout/carousel";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navbar";
+
+// Pages (estilos específicos de páginas)
+@import "pages/home";
+
+// Themes (modo oscuro, light mode, temas personalizados)
+@import "themes/dark-mode";
+@import "themes/light-mode";
+
+// Vendors (librerías de terceros, Bootstrap, etc.)
+@import "vendors/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons";
+
+// Importar Bootstrap desde node_modules
+@import "../node_modules/bootstrap/scss/bootstrap";

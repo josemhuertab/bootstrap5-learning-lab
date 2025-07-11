@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap5-learning-lab",
+  "version": "1.0.0",
+  "description": "Este proyecto muestra de forma práctica cómo utilizar **Bootstrap de forma local** para construir una página web **responsiva y moderna**, aplicando buenas prácticas y comentarios que facilitan el aprendizaje.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemhuertab/bootstrap5-learning-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/josemhuertab/bootstrap5-learning-lab/issues"
+  },
+  "homepage": "https://github.com/josemhuertab/bootstrap5-learning-lab#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1"
+  }
+}
